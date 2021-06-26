@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView textView;
     Button button;
+    private int score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(view.getContext(), FrankActivity.class);
                 startActivity(intent);
 //                sdsad
+
             }
         });
     }
