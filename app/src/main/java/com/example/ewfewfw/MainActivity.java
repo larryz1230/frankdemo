@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText("Frank is gay");
                 Intent intent = new Intent(view.getContext(), FrankActivity.class);
                 startActivity(intent);
+//                sdsad
             }
         });
     }
